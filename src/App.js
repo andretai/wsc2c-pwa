@@ -1,17 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Nav from './fixed/Nav';
 import Foot from './fixed/Foot';
+import Policy from './fixed/Policy';
 import Whatsapp from './ws/Whatsapp';
 
-function App() {
-  return (
-    <div>
-      <Nav />
-      <Whatsapp />
-      <Foot />
-    </div>
-  );
+class App extends Component {
+  state = {
+    showPolicy: false
+  }
+  toggleShowPolicy = () => {
+    this.setState({ showPolicy: !this.state.showPolicy });
+  }
+  render() {
+    return (
+      <div>
+        <Nav toggleShowPolicy={this.toggleShowPolicy} />
+        { this.state.showPolicy ? <Policy toggleShowPolicy={this.toggleShowPolicy} /> : null }
+        <Whatsapp />
+        <Foot />
+      </div>
+    );
+  }
 }
 
 export default App;
