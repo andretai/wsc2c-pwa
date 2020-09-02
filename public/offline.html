@@ -15,13 +15,8 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js')
-          .then(reg => console.log('good: ', reg.scope))
-          .catch(err => console.log('bad: ', err));
-      }
-    </script>
+    <div>
+      <p>Sorry! You need to be online to use WhatsApp Click to Chat.</p>
+    </div>
   </body>
 </html>
