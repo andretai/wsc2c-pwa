@@ -9,7 +9,7 @@ import Whatsapp from './ws/Whatsapp';
 class App extends Component {
   state = {
     showPolicy: false,
-    showInstall: true
+    showInstall: false
   }
   toggleShowPolicy = () => {
     this.setState({ showPolicy: !this.state.showPolicy });
