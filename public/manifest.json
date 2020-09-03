@@ -1,6 +1,6 @@
 {
   "short_name": "WhatsApp K2C",
-  "name": "Send WhatsApp PMs without saving contacts.",
+  "name": "Thank you for using K2C!",
   "icons": [
     {
       "src": "whatsapp.png",
@@ -18,6 +18,18 @@
       "src": "whatsapp64.png",
       "type": "image/png",
       "sizes": "64x64",
+      "purpose": "maskable"
+    },
+    {
+      "src": "whatsapp32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "maskable"
+    },
+    {
+      "src": "whatsapp16.png",
+      "type": "image/png",
+      "sizes": "16x16",
       "purpose": "maskable"
     }
   ],
