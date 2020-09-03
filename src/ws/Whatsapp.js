@@ -12,10 +12,10 @@ export default class Whatsapp extends Component {
     // CSS
     const div = "mx-6 mb-64 font-hairline";
     const guide_title = "capitalize font-semibold text-center text-red-500";
-    const guide_list = "list-decimal mx-3 my-3 text-justify text-sm";
+    const guide_list = "list-decimal mx-3 my-3 text-justify text-base";
     const input_labels = "font-semibold text-gray-700 text-sm";
     const input_boxes = "block w-full my-1 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500";
-    const button = "w-1/2 mx-auto my-6 px-2 py-1 bg-green-500 border border-gray-200 rounded-full shadow-sm text-white text-center"
+    const button = "w-2/3 mx-auto my-6 px-2 py-1 bg-green-500 border border-gray-200 rounded-full shadow-sm text-white text-center"
     return (
       <div>
         <div className={div}>
@@ -29,7 +29,7 @@ export default class Whatsapp extends Component {
               <p>Message can be left blank.</p>
             </li>
             <li>
-              <p>Consider adding us to Home screen for a better experience and data usage.</p>
+              <p>Consider <button className="text-indigo-500">adding us</button> to Home screen for a better experience and data usage.</p>
             </li>
           </ol>
           {/* Form */}

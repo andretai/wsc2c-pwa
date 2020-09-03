@@ -3,14 +3,19 @@ import React, { Component } from 'react';
 import Nav from './fixed/Nav';
 import Foot from './fixed/Foot';
 import Policy from './fixed/Policy';
+import Install from './fixed/Install';
 import Whatsapp from './ws/Whatsapp';
 
 class App extends Component {
   state = {
-    showPolicy: false
+    showPolicy: false,
+    showInstall: true
   }
   toggleShowPolicy = () => {
     this.setState({ showPolicy: !this.state.showPolicy });
+  }
+  toggleShowInstall = () => {
+    this.setState({ showInstall: !this.state.showInstall });
   }
   render() {
     return (
@@ -18,6 +23,7 @@ class App extends Component {
         <Nav toggleShowPolicy={this.toggleShowPolicy} />
         { this.state.showPolicy ? <Policy toggleShowPolicy={this.toggleShowPolicy} /> : null }
         <Whatsapp />
+        { this.state.showInstall ? <Install toggleShowInstall={this.toggleShowInstall} /> : null }
         <Foot />
       </div>
     );
