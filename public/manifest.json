@@ -1,11 +1,17 @@
 {
   "short_name": "WhatsApp K2C",
-  "name": "Thank you for using K2C!",
+  "name": "WhatsApp Click to Chat PWA",
   "icons": [
     {
       "src": "whatsapp.png",
       "type": "image/png",
       "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "whatsapp256.png",
+      "type": "image/png",
+      "sizes": "256x256",
       "purpose": "maskable"
     },
     {
