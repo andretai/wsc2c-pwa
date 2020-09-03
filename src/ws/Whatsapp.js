@@ -29,7 +29,7 @@ export default class Whatsapp extends Component {
               <p>Message can be left blank.</p>
             </li>
             <li>
-              <p>Consider <button className="text-indigo-500">adding us</button> to Home screen for a better experience and data usage.</p>
+              <p>Consider <button onClick={() => this.props.toggleShowInstall()} className="text-indigo-500">adding us</button> to Home screen for a better experience and data usage.</p>
             </li>
           </ol>
           {/* Form */}

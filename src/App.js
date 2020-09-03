@@ -22,7 +22,7 @@ class App extends Component {
       <div className="min-h-screen">
         <Nav toggleShowPolicy={this.toggleShowPolicy} />
         { this.state.showPolicy ? <Policy toggleShowPolicy={this.toggleShowPolicy} /> : null }
-        <Whatsapp />
+        <Whatsapp toggleShowInstall={this.toggleShowInstall} />
         { this.state.showInstall ? <Install toggleShowInstall={this.toggleShowInstall} /> : null }
         <Foot />
       </div>
