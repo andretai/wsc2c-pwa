@@ -3,7 +3,7 @@ import React from 'react'
 export default function Foot() {
   return (
     <div>
-      <nav className="absolute bottom-0 w-full text-xs">
+      <nav className="absolute bottom-0 w-full my-2 text-xs">
         {/* <div className="flex justify-center content-center">
           <p>Created by</p>
           <a href="https://www.instagram.com/andretaiwx/" target="_blank" rel="noopener noreferrer"

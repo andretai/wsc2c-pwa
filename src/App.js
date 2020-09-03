@@ -14,7 +14,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="min-h-screen">
+      <div className="relative min-h-screen">
         <Nav toggleShowPolicy={this.toggleShowPolicy} />
         { this.state.showPolicy ? <Policy toggleShowPolicy={this.toggleShowPolicy} /> : null }
         <Whatsapp />
