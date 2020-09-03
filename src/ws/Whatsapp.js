@@ -12,9 +12,9 @@ export default class Whatsapp extends Component {
     // CSS
     const div = "mx-6 font-hairline";
     const guide_title = "capitalize font-semibold text-center text-red-500";
-    const guide_list = "list-decimal mx-3 my-6 text-justify text-sm";
+    const guide_list = "list-decimal mx-3 my-3 text-justify text-sm";
     const input_labels = "font-semibold text-gray-700 text-sm";
-    const input_boxes = "block w-full my-3 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500";
+    const input_boxes = "block w-full my-1 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500";
     const button = "w-1/2 mx-auto my-6 px-2 py-1 bg-green-500 border border-gray-200 rounded-full shadow-sm text-white text-center"
     return (
       <div>
