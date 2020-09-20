@@ -10,7 +10,7 @@ export default class Whatsapp extends Component {
   }
   render() {
     // CSS
-    const div = "mx-6 mb-64 font-hairline";
+    const div = "mx-6 mb-64 md:px-24 lg:px-48 xl:px-96 font-hairline";
     const guide_title = "capitalize font-semibold text-center text-red-500";
     const guide_list = "list-decimal mx-3 my-3 text-justify text-base";
     const input_labels = "font-semibold text-gray-700 text-sm";

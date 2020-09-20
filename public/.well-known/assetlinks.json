@@ -1,5 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target" : { "namespace": "android_app", "package_name": "com.tdrewx.wsc2c",
-               "sha256_cert_fingerprints": ["92:CA:81:04:B6:C1:E9:FB:9F:59:7C:86:E3:D2:DF:D9:A5:1D:A1:E7:3A:2D:BF:73:50:3F:61:5B:F2:43:C4:C2"] }
+               "sha256_cert_fingerprints": ["3D:C1:FD:B2:D3:7A:55:5D:54:9C:0B:2F:D9:13:F8:89:0D:F7:26:F1:CF:70:26:B8:15:88:FD:2C:F6:DA:11:D5"] }
 }]
